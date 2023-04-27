@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section, .footer {
+    background-color: #1F2937;
+    color: #f9faf8
+}
+
+.main-section {
+    padding: 8px 32px 24px 16px ;
+}
+
+
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    padding: 8px
+}
+
+ul.header-links {
+    display: flex;
+    list-style: none;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+.info-section {
+    border: solid 1px gold
+}
+.quote-section {
+    border: solid 1px gold
+}
+.signup-section {
+    border: solid 1px gold
+}
+.footer {
+    border: solid 1px gold
+}
